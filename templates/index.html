@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gim Lens Image Classifier</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            width: 450px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h2 { color: #333; font-size: 24px; }
+        button, select, input[type="file"] {
+            padding: 10px 12px;
+            margin-top: 8px;
+            width: 100%;
+            border-radius: 6px;
+            border: 1px solid #d3d3d3;
+        }
+        button {
+            background: #28a745;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover { background: #218838; }
+        img, video {
+            margin-top: 15px;
+            border-radius: 8px;
+            max-width: 100%;
+        }
+        hr { margin-top: 20px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Gim Lens Image Classifier</h2>
+
+    <!-- Upload Form -->
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" name="image" required>
+        <button type="submit">Predict Location</button>
+    </form>
+
+    <!-- Show Prediction -->
+    {% if prediction %}
+    <hr>
+    <h3>Current Location Detected: <b>{{ prediction }}</b></h3>
+
+    {% if image_path %}
+        <img src="{{ image_path }}" alt="Uploaded Image">
+    {% endif %}
+
+    <!-- Destination Select -->
+    <form method="POST" action="/navigate">
+        <input type="hidden" name="predicted" value="{{ prediction }}">
+
+        <label><b>Where do you want to go?</b></label>
+        <select name="destination" required>
+            {% for d in destinations %}
+            <option value="{{ d }}">{{ d }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Show Route Guide</button>
+    </form>
+    {% endif %}
+
+    <!-- Display Video -->
+    {% if video_path %}
+    <hr>
+    <video controls>
+        <source src="{{ video_path }}" type="video/mp4">
+    </video>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
