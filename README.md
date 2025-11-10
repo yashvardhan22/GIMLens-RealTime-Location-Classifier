@@ -1,5 +1,3 @@
-# GIMLens-RealTime-Location-Classifier
-
 # GIMLens: Real-Time Indoor Location Classifier 🔍🏛️
 
 GIMLens is an intelligent indoor navigation system that identifies your current location using a single image and then guides you to your selected destination using stored route videos. It is trained on **8,000+ images** collected across multiple building locations and achieves high accuracy with an optimized MobileNetV2 architecture.
