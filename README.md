@@ -65,7 +65,7 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
 
 | Upload Image | Prediction | Select Destination | Navigation Video |
 |--------------|------------|-------------------|-----------------|
-| ![](https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/test_image.jpg) | ![](images/predicted_ui.png) | NAB_LAB | ![](images/video_ui.gif) |
+| ![](https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/test_image.jpg) | ![](images/predicted_ui.png) | NAB_LAB | <video src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/hsotel_9_tonablab.mp4" width="300" controls></video> |
 
 ### 🎥 Full Demo Video:
 (Replace later)
