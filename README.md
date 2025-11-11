@@ -109,7 +109,7 @@ project/
 Dataset is stored externally due to size:
 
 
-Download → Place inside: ml/dataset/
+Download → https://drive.google.com/drive/folders/1XpFJms7VHU5Qmol-U85Gh1ErDnhJDIFO?usp=drive_link
 
 
 ---
