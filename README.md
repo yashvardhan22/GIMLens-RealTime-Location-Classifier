@@ -22,9 +22,9 @@ GIMLens is an intelligent indoor navigation system that identifies your current 
 - Images captured from **mobile phones** in real indoor environments.
 
 ### Example Dataset Samples:
-| Sample 1 | Sample 2 | Sample 3 |
+| Cafetria 1 block | Sample 2 | Sample 3 |
 |---------|---------|---------|
-| ![img1](images/sample1.jpg) | ![img2](images/sample2.jpg) | ![img3](images/sample3.jpg) |
+| ![img1](https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/sample%20images/Cafetera_1_frame_330.jpg) | ![img2](images/sample2.jpg) | ![img3](images/sample3.jpg) |
 
 > _(Replace images above with any 3 images from your dataset — store them in `images/` folder inside repo)_
 
