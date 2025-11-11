@@ -65,7 +65,7 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
 
 | Upload Image | Prediction | Select Destination | Navigation Video |
 |--------------|------------|-------------------|-----------------|
-| ![](images/upload_ui.png) | ![](images/predicted_ui.png) | ![](images/destination_ui.png) | ![](images/video_ui.gif) |
+| ![](https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/test_image.jpg) | ![](images/predicted_ui.png) | ![](NAB_LAB) | ![](images/video_ui.gif) |
 
 ### 🎥 Full Demo Video:
 (Replace later)
