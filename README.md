@@ -74,9 +74,7 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
     <td><img src="images/predicted_ui.png" width="200"></td>
     <td><b>NAB_LAB</b></td>
     <td>
-      <video width="300" controls>
-        <source src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/hsotel_9_tonablab.mp4" type="video/mp4">
-      </video>
+      <img src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/hsotel_9_tonablab%20gif.gif" width="300">
     </td>
   </tr>
 </table>
