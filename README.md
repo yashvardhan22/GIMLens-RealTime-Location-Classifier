@@ -47,17 +47,29 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
 ## 📊 Model Evaluation
 
 ### Confusion Matrix:
-![Confusion Matrix](images/confusion_matrix.png)
+<img src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/confusion_matrix.jpg" width="400" alt="Confusion Matrix">
 
-### Classification Report:
-- Precision
-- Recall
-- F1 Score
+# GIMLens: Real-Time Location Classifier
 
-### Grad-CAM Heatmaps (Model Interpretability):
-| Input Image | Attention Map |
-|------------|---------------|
-| ![grad1](images/grad_original.jpg) | ![grad1h](images/grad_heatmap.jpg) |
+## 📊 Classification Report
+
+| Class                  | Precision | Recall | F1-Score | Support |
+|------------------------|-----------|--------|----------|---------|
+| basketball             | 1.00      | 1.00   | 1.00     | 119     |
+| cafeteria_1_block      | 0.94      | 0.99   | 0.97     | 272     |
+| cafeteria_2_block      | 1.00      | 1.00   | 1.00     | 169     |
+| football_ground        | 1.00      | 1.00   | 1.00     | 141     |
+| hostel_9               | 0.88      | 1.00   | 0.94     | 275     |
+| jaggu_shop             | 1.00      | 1.00   | 1.00     | 26      |
+| kailash_area           | 1.00      | 1.00   | 1.00     | 137     |
+| library                | 1.00      | 1.00   | 1.00     | 109     |
+| mph                    | 0.99      | 1.00   | 0.99     | 87      |
+| nab_lab                | 1.00      | 0.97   | 0.99     | 142     |
+| old_academic_block     | 0.99      | 0.61   | 0.75     | 130     |
+
+**Accuracy:** 0.96  
+**Macro Average:** Precision 0.98, Recall 0.96, F1-Score 0.97  
+**Weighted Average:** Precision 0.97, Recall 0.96, F1-Score 0.96  
 
 ---
 
