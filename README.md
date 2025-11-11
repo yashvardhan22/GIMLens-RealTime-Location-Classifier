@@ -83,7 +83,7 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
   </tr>
   <tr>
     <td><img src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/test_image.jpg" width="200"></td>
-    <td><img src="[images/predicted_ui.png](https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/confusion_matrix.jpg)" width="200"></td>
+    <td><img src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/output.png" width="200"></td>
     <td><b>NAB_LAB</b></td>
     <td>
       <img src="https://github.com/yashvardhan22/GIMLens-RealTime-Location-Classifier/blob/main/hsotel_9_tonablab%20gif.gif" width="300">
