@@ -73,22 +73,34 @@ Final chosen model: **MobileNetV2** (3 Training Epochs)
 
 ## 📦 Project Structure
 ```GIMLens
-|
-|--app/ # Flask Application
-│ ├─ app.py
-│ ├─ templates/
-│ └─ static/
+project/
 │
-├─ ml/ # Training/Evaluation Code
-│ ├─ training_notebook.ipynb
-│ ├─ gradcam_results/
-│ └─ metrics/
+│-- app/                           # Flask Application
+│   ├─ app.py
+│   ├─ templates/
+│   │   └─ index.html
+│   └─ static/
+│      ├─ uploads/
+│      └─ styles.css
 │
-├─ best_mobilenet_model_3epochs.keras # Model (download if large)
-├─ dataset_classes.json
-├─ requirements.txt
+│-- ml/                            # Training + Scripts
+│   ├─ training_notebook.ipynb
+│   ├─ model_to_tflite.py
+│   ├─ model_comparison_results.csv
+│   └─ gradcam_results/
+│
+│-- models/                        # Store trained models separately
+│   ├─ best_mobilenet_model_3epochs.keras
+│   └─ model.tflite
+│
+│-- data/                          # Metadata, labels, dataset reference
+│   └─ dataset_classes.json
+│   └─ dataset_link.txt
+│
 ├─ README.md
-└─ dataset_link.txt # Contains Google Drive Dataset Link
+├─ requirements.txt
+└─ .gitignore
+
 ```
 
 ---
